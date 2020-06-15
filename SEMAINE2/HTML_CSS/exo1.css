@@ -1,0 +1,31 @@
+h1{
+    color: red;
+    text-decoration: underline;
+}
+
+
+    
+  
+.small-block {
+    font-style: italic;
+    color: green;
+    width: 500px;
+    text-indent: 40px;
+}
+
+.encadre {
+       border: 2px solid blue;
+}
+    
+.isole {
+    padding: 200px;
+    color: blueviolet;
+}
+
+.machin vert {
+    color: brown;
+}
+
+body{
+    
+}

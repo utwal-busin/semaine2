@@ -1,0 +1,25 @@
+h1{
+    color: red;
+    background-color: royalblue;
+    font-size: 32px
+    padding: 12px 12px 12px 300px;
+    border: green 16px solid;
+
+}
+
+h2{
+    color: rgb(255, 0, 85);
+    background-color: royalblue;
+    font-size: 32px
+    padding: 12px 12px 12px 300px;
+    border: black 16px dotted;
+
+}
+
+h3{
+    color: green;
+    background-color: royalblue;
+    font-size: 32px
+    padding: 12px 12 px 12px 300 px;
+    border: yellow 18px groove;
+}
