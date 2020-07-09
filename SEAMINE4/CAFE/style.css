@@ -1,0 +1,78 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    color: #222;
+}
+
+h1{
+    margin-bottom: 0;
+}
+
+a {
+    color:#222;
+    text-decoration: none;
+}
+
+/* Menu */
+header{
+    background-color: black;
+    line-height: 1.7em;
+    overflow: auto;
+}
+ 
+.header nav h1{
+    float:left;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+
+.header nav ul{
+    float: right;
+    list-style: none;
+}
+
+/*header nav ul li signifie qu'on applique les propiété aux éléments contenus dans le Header*/
+
+.header nav ul li a{
+    list-style: none;
+}
+/*list-style: none; c'est pour enlever les puces*/
+
+.header nav ul li a{
+    color: white;
+}
+
+.header nav ul li a{
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+/*Contenu café */
+
+.cafe{
+    background: url(2cafe.png.jpg);
+    height: 700px;
+    background-size: cover;
+}
+
+
+.cafe-content h1{
+    font-size: 50px;
+    padding-top: 150px;
+}
+/*.cafe-content h1 c'est pour appliquer au h1 contenu dans cafe content la propriété voulu*/
+/*  les em c'est pour les grandes valeurs, les pixels "px" c'est pour les petites valeurs  */
+
+
+
+/* over flow scroll: pour scroller des éléments à l'intérieur d'un bloc
+   over flow auto: s'adapte par rapport au contenu, pratique pour la responsivité
+
+
+/* padding pour metttre de l'espace autour d'un élément*/

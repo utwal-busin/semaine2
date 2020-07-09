@@ -1,0 +1,17 @@
+
+.fennêtre{
+    height: 6px;
+    width: 60px;
+    background-color: blueviolet;
+}
+
+.porte{
+    height: 80px;
+    width: 60px;
+    background-color: purple;
+}
+
+.building{
+    border: 2px;
+    background-color: rebeccapurple;
+}

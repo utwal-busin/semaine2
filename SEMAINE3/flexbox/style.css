@@ -1,0 +1,23 @@
+.boite{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    color: blue;
+    margin: 2px;
+}
+
+.container{
+    display: flex;
+}
+
+.colunn{
+    flex-direction: column;
+}
+
+.colunnreverse{
+    flex-direction: column-reverse;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}

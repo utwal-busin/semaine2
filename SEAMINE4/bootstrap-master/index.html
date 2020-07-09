@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap exemple</title>
+    <!-- On charge bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- On charge notre propre style (après bootstrap) -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="exo1.css">
+</head>
+<body>
+    
+    <!-- tous les éléments bootstrap doivent se trouver dans un
+    conteneur (généralement on peut en avoir qu'un seul par fichier) -->
+    <div class="container-fluid">
+        <!-- La classe .row est là pour "créer" une zone divisée en 12
+        cellules -->
+        <div class="row">
+            <!-- on utilise les classes col-* pour indiquer le nombre de
+            cellules de la row que doit prendre l'élément en question.
+            Ici, on dit que l'article.green prendra 4 cellules sur 12 en largeur -->
+            <div class="col-4">
+                <article class="green"></article>
+            </div>
+
+            <!-- On peut indiquer un nombre de cellules différents selon la
+            taille de l'écran en utilisant col-* col-sm-* col-md-* col-lg-* et col-xl-*
+            L'élément changera de taille selon la taille de l'ecran en se basant sur ces classes -->
+            <div class="col-12 col-md-2">
+                <article class="red"></article>
+            </div>
+
+            <!-- Il est fortement recommandé de mettre les classes de positionnemnet bootstraps
+            sur des div dédiées à ça plutôt que les mettre sur nos éléments structurants (h1, article, header, etc.),
+            ceux là se trouveront à l'intérieur des divs en questions -->
+            <div class="col-5">
+                <article class="blue"></article>
+            </div>
+
+
+        </div>
+    </div>
+    
+</body>
+</html>

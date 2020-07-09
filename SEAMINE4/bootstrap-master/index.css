@@ -1,0 +1,18 @@
+/*Fichier css qui m'est propre dans lequel je mets
+tout le style qui ne concerne pas le positionnement*/
+
+article {
+    height: 50px;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}

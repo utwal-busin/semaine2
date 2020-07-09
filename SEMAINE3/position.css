@@ -1,0 +1,20 @@
+.carre{
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+#relatif{
+    position: relative;
+    top: 30px;
+    border: 2px solid black;
+}
+
+#relatif2{
+    position: absolute;
+    top: 30px;
+    border: 2px solid black;
+    left: -10px;
+}
